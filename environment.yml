@@ -1,0 +1,20 @@
+name: panelTest
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab >= 3.0
+  - pyyaml # for postBuild script
+  - jupyterlab-unfold # https://github.com/jupyterlab-contrib/jupyterlab-unfold
+  - jupyterlab-git # https://github.com/jupyterlab/jupyterlab-git
+  - jupyterlab-lsp # https://github.com/jupyter-lsp/jupyterlab-lsp
+  - jupyterlab-spellchecker # https://github.com/jupyterlab-contrib/spellchecker
+  - pip
+  - pip:
+    - jupyterlab-vim # https://github.com/jupyterlab-contrib/jupyterlab-vim
+    - jupyterlab-code-formatter # https://github.com/ryantam626/jupyterlab_code_formatter
+    - black # https://github.com/psf/black
+    - isort # https://github.com/pycqa/isort/
+    - panel
+    - ipywidgets
+    - bokeh
