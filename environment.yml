@@ -18,3 +18,5 @@ dependencies:
     - panel
     - ipywidgets
     - bokeh
+    - numpy
+    - holoviews
